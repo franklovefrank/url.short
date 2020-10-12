@@ -1,19 +1,16 @@
-# url.short
-rethink problem 3 
+# url-shortener for rethink
 
-## movie search tool 
+ Easy and lightweight URL shortener created with JavaScript, Express, and MongoDB
 
-Created with Node.js, React, Material-UI, and The Movie Database API ✨
+#### Ready to run 
+
+- Install dependencies with a quick "npm install" 
+- Make sure Mongo is running as a service. If you're not sure how to do that, you can read more [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+- Start the app with npm start and open up http://localhost:5000 
+
+#### notes 
+
+- this app is mostly ready to deploy. the MongoDB URI is currently hardcoded in db.js. it would need to be changed to the appropriate destination and set as an environmental variable 
 
 
-#### Run locally 
-- Clone
-- `npm install` in the root folder.
-- `npm install` in the `client` folder 
-- `node server.js` in the local folder.
-- `npm run start` or `yarn start` in the `client` folder (I know this is whack)
-
-#### thoughts
-
-I decided to use a public database of since I don't know a million of anything, but the search engine could be easily adapted to another database. Right now, the app only searches by title. If I had more time I would add a feature to search and filter by different keys, as well as a modal display with more information for the movie the user selects.
 
